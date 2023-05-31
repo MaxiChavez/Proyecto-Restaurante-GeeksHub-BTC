@@ -1,0 +1,13 @@
+.div-landing {
+  background-image: url(../Recursos/Landing.avif);
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  vertical-align: auto;
+}
+/* .div-landing h1,
+h2 {
+  vertical-align: middle;
+} */

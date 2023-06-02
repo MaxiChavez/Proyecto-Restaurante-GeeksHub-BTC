@@ -1,3 +1,9 @@
+body {
+  background-image: url(../Recursos/hojas-otoñales.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #section-entrada,
 #section-principal,
 #section-postres {
@@ -8,8 +14,6 @@
 }
 .card-menu {
   width: 100%;
-  background-color: aquamarine;
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

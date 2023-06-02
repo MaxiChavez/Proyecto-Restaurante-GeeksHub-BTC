@@ -1,0 +1,21 @@
+#section-entrada,
+#section-principal,
+#section-postres {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+.card-menu {
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #section-entrada,
+  #section-principal,
+  #section-postres {
+    grid-template-columns: 1fr;
+  }
+}

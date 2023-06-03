@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Estilos/style.css" />
     <link rel="stylesheet" href="../Estilos/menu.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -11,13 +12,21 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>Katana Sushi</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> Restaurante</a>
+        <a class="navbar-brand" href="../Vistas/home.html">Katana Sushi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,183 +77,439 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="../Vistas/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <h1 id="entradas">Entradas</h1>
-    <section id="section-entrada">
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/TARTAR-DE-SALMON.webp"
-                class="img-fluid rounded-start"
-                alt="tartar-salmon"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tartar de Salmón</h5>
-                <p class="card-text">
-                  Cortes de salmón de (110 g.) en marinado asiático, ají dulce,
-                  cebolla morada y aguacate (50 g.) acompañado con chips.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary">8.50 €</small>
-                </p>
-              </div>
-            </div>
+    <!--Seccion entrada-->
+
+    <h3 id="entradas" class="seccion-titulo">Entradas</h3>
+
+    <section id="section-entrada" class="container text-center">
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/tataki-de-atun.webp"
+            alt="Tataki de Atún"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Tataki de Atún</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Lomo de atún rojo (110 g.) sellado con pimienta y sésamo,
+              fileteado sobre una cama de arroz con soja asiática.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">...... 8.00 €</p>
           </div>
         </div>
-      </div>
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/EBI-TEMPURA.webp"
-                class="img-fluid rounded-start"
-                alt="ebi-tempura"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Ebi Tempura</h5>
-                <p class="card-text">
-                  Langostinos tempurizados con salsa unagui.(6 unidades)
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary">8.00 Є</small>
-                </p>
-              </div>
-            </div>
+      </article>
+
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/larry-chicken.webp"
+            alt="Larry-chicken"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Larry Chicken</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Tiras de pollo rebozadas con salsa fuji y unagui sobre una cama de
+              arroz---
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......6.00 €</p>
           </div>
         </div>
-      </div>
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/SAQUITOS-DE-LANGOSTINO.webp"
-                class="img-fluid rounded-start"
-                alt="saquito-langostino"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Saquito de Langostino</h5>
-                <p class="card-text">
-                  Hechos con pasta filo y rellenos de langostinos, zanahoria,
-                  judías de soja y calabaza. (5 Unidades)
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary">7.00 Є</small>
-                </p>
-              </div>
-            </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/SUSHI-PIZZA-DINAMITA.webp"
+            alt="Sushi pizza"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Sushi Pizza</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              elaborada con el propio topping dinamita (wakame, cangrejo,
+              aguacate mayo japonesa), salsa de anguila, dragón y masago.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......6.50 €</p>
           </div>
         </div>
-      </div>
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/larry-chicken.webp"
-                class="img-fluid rounded-start"
-                alt="larry-chicken"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Larry Chicken</h5>
-                <p class="card-text">
-                  Tiras de pollo rebozadas con salsa fuji y unagui sobre una
-                  cama de arroz.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary"> 6.50 €</small>
-                </p>
-              </div>
-            </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/TARTAR-DE-ATUN.webp"
+            alt="Tartar de Atún"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Tartar de Atún</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Lomo de atún rojo (110 g.) sellado con pimienta y sésamo,
+              fileteado sobre una cama de arroz con soja asiática.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......7.00 €</p>
           </div>
         </div>
-      </div>
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/TARTAR-DE-ATUN.webp"
-                class="img-fluid rounded-start"
-                alt="tartar-atun"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tartar de Atún</h5>
-                <p class="card-text">
-                  Cortes de salmón de (110 g.) en marinado asiático, ají dulce,
-                  cebolla morada y aguacate (50 g.) acompañado con chips.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary">8.50 €</small>
-                </p>
-              </div>
-            </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/TARTAR-DE-SALMON.webp"
+            alt="Tartar de Salmon"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Tartar de Salmon</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Cortes de salmón de (110 g.) en marinado asiático, ají dulce,
+              cebolla morada y aguacate (50 g.) acompañado con chips.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......7.00 €</p>
           </div>
         </div>
-      </div>
-      <div class="card-menu d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="../Recursos/tataki-de-atun.webp"
-                class="img-fluid rounded-start"
-                alt="tataki-atun"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tataki de Atún</h5>
-                <p class="card-text">
-                  Lomo de atún rojo (110 g.) sellado con pimienta y sésamo,
-                  fileteado sobre una cama de arroz con soja asiática.
-                </p>
-                <p class="card-text">
-                  <small class="text-body-secondary">8.00 €</small>
-                </p>
-              </div>
-            </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/edamames (1).webp"
+            alt="Edamames"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Edamames</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">165 gramos de vainas de soja con sal marina.</p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......4.00 €</p>
           </div>
         </div>
-      </div>
+      </article>
     </section>
-    <h1 id="principales">Platos pricipales</h1>
-    <section id="section-principal">
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
+
+    <!--Seccion plato principal-->
+    <h3 id="principales" class="seccion-titulo">Platos pricipales</h3>
+    <section id="section-principal" class="container text-center">
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/Larry-Chicken-orimaki.webp"
+            alt="Orimaki Rolls"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Rolls en Tempura</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              10 unidades variadas a eleccion, entre ellas : Tiger especial
+              roll, Tentación roll, Tiger roll, Dragon roll, Katana spice Roll.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">....... 12.00 €</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/Orimake-your-roll-1.webp"
+            alt="Your Rolls"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Katana you Roll</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">10 unidades de Katana Rolls a tu gusto.</p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">....... 14.00€</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/SUPERBOWL.webp"
+            alt="Superbowl"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Katana Superbowl</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              A base de wakame, atún, salmón y aguacate y con mayonesa japonesa
+              y vinagreta asiática.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......9.50 €</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/VEGGIE_SALAD.webp"
+            alt="VEGGIE_SALAD"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Veggie Salad</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              La ensalada mas rica ahora veggie, te va a encantar.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......11 €</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/gyoza-de-pato.webp"
+            alt="Mix de gyozas"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Mix de Gyozas</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Gyozas de : Cerdo, pato, gambas, verdura. Fritas o al vapor, como
+              tú elijas.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......9.00 €</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/sushiitake-roll.webp"
+            alt="Roll frescos "
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Rolls frescos</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              10 unidades de rolls frescos a elección, entre ellos : Alaska,
+              Spicy Salmon, Tropic Guell, calamaroll, Oceanía, Marymar. Ideal
+              para los dias mas calurosos.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......12.50 €</p>
+          </div>
+        </div>
+      </article>
     </section>
-    <h1 id="postres">Postres</h1>
-    <section id="section-postres">
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
-      <div class="card-menu"></div>
+
+    <!--Seccion postre-->
+    <h3 id="postres" class="seccion-titulo">Postres</h3>
+    <section id="section-postres" class="container text-center">
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/cheesecake-oreo.webp"
+            alt="cheesecake-oreo"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Cheesecake de Oreo</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Una base crujiente de Oreo y galleta María y con una Oreo fina.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......6.00€</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/helado-chocolate-fudge-brownie.webp"
+            alt="EBI-TEMPURA"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Helado de Chocolate</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Helado de chocolate con trocitos de nueces de pecan caramelizadas.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......4.50 €</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/pie-de-maracuya.webp"
+            alt="EBI-TEMPURA"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Pie de Maracuya</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Crema de maracuyá sobre una base crocante de galletas María y todo
+              ello decorado con merengue flambeado.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......6.00€</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/helado-cookie-dough.webp"
+            alt="Helado Cockie"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Helado de Coockie</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Helado de crema de vainilla con trozos de galleta con pepitas de
+              chocolate y trocitos chocolateados.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......4.50€</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/Gyozas_Manzana.webp"
+            alt="Gyoza de Manzana"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Gyoza de Manzana</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              4 unidades de Empanadillas asiáticas con un relleno de manzana y
+              con la opción de agregarle sirope de chocolate.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......4.00€</p>
+          </div>
+        </div>
+      </article>
+      <article class="card-menu row mx-auto">
+        <div class="img-div col-4">
+          <img
+            class="img-food"
+            src="../Recursos/helado-vanilla-pecan.webp"
+            alt="Helado de vainilla Pecan"
+          />
+        </div>
+        <div class="col-8">
+          <div class="row titulo-card align-items-center">
+            <p class="mb-0">Helado de Vainilla</p>
+          </div>
+          <div class="row descripcion-card align-items-center">
+            <p class="mb-0">
+              Helado de crema de vainilla con trocitos de nueces de pecan
+              caramelizadas.
+            </p>
+          </div>
+          <div class="row precio-card align-items-center">
+            <p class="mb-0">.......4.50€</p>
+          </div>
+        </div>
+      </article>
     </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

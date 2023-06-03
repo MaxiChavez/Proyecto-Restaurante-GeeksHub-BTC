@@ -4,5 +4,27 @@
   height: calc(100vh - 56px);
   background-size: cover;
   color: aliceblue;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.85);
+
+}
+
+#span-landing {
+  font-size: 3rem !important;
+  font-weight: bolder;
+  font-style: italic;
+  display: table;
+  margin: 0 auto;
+}
+
+#restaurante-name {
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+#restaurante-descripcion {
+  font-weight: 500;
+  font-size: 3rem;
 }

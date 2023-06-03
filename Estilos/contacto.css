@@ -1,0 +1,57 @@
+body {
+  background-image: url(../Recursos/hojas-otoñales.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+.formulario form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.formulario form input,
+.formulario form textarea {
+  margin-bottom: 10px;
+}
+
+.formulario form input[type="tel"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario fieldset {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 6px white;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+  .formulario form {
+    max-width: 500px;
+  }
+  /* Media query para el área de comentarios */
+
+  /* Media query para el área de comentarios */
+
+  .formulario textarea.comentarios {
+    width: 90%;
+    height: 150px;
+  }
+
+  .formulario fieldset {
+    margin: 3px;
+  }
+}

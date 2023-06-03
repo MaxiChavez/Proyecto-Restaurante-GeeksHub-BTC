@@ -12,13 +12,23 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Katana Sushi</title>
   </head>
+
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> Restaurante</a>
+        <a class="navbar-brand" href="../Vistas/home.html">Katana Sushi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -33,7 +43,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../Vistas/home.html"
+                >Home</a
+              >
             </li>
 
             <li class="nav-item dropdown">
@@ -67,16 +82,22 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="../Vistas/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--Imagen Landing-->
-    <div class="div-landing d-flex align-items-center justify-content-center">
-      <h1>Katana Sushi</h1>
-      <h2>Los mejores platos de sushi en Málaga</h2>
+    <div class="div-landing text-center vertical">
+      <span id="span-landing">
+        <h1 id="restaurante-name">Katana</h1>
+
+        <br />
+        <h1 id="restaurante-descripcion">
+          Los mejores platos de sushi en Málaga
+        </h1>
+      </span>
     </div>
 
     <script

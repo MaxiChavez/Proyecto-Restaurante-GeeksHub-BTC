@@ -1,8 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  border: none;
+}
+
 .div-landing {
-  background-image: url(../Recursos/Landing.avif);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../Recursos/Landing.avif);
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: calc(100vh - 56px);
-  background-size: cover;
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -38,6 +51,7 @@
   text-align: center;
   box-shadow: 0 6px 10px black;
   background-image: url(../Recursos/azul.avif);
+  background-size: cover;
   color: aliceblue;
   letter-spacing: 1px;
   line-height: 1.9;
@@ -46,29 +60,36 @@
 .row {
   flex-wrap: wrap;
 }
+
 .columns img {
-  width: 450px;
-  height: 450px;
-  padding: 10px;
-  margin-top: 5px;
-  transition: transform 0.3s ease;
+  width: 445px;
+  height: 445px;
+  padding: 8px;
+  margin-top: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
 }
 
 .columns img:hover {
   transform: scale(1.05);
+  box-shadow: none;
 }
+
 .columns {
   flex-wrap: wrap;
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 @media (max-width: 768px) {
   .about {
     margin-left: 1px;
     margin-right: 1px;
     width: 100%;
   }
+
   .div-landing {
     max-width: 100%;
   }
@@ -80,9 +101,11 @@
   .filas-flex {
     flex: 90%;
   }
+
   .columns img {
     max-width: 95%;
   }
+
   .columns {
     flex: 90%;
   }

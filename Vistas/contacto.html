@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -87,43 +87,36 @@
 
     <!-- Formulario de contacto -->
 
-    <form class="formulario">
+    <form
+      class="formulario"
+      action="mailto:chavezmaxi@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
       <fieldset>
         <legend>Reservá en Katana.</legend>
 
         Nombre y apellido:<br />
-        <input class="input-text" type="text" /><br />
+        <input class="input-text" type="text" name="nombreApellido" /><br />
         Email: <br />
-        <input class="input-text" type="email" /><br />
+        <input class="input-text" type="email" name="email" /><br />
         Teléfono: <br />
-        <input class="input-text" type="tel" /><br />
+        <input class="input-text" type="tel" name="telefono" /><br />
         Fecha y hora: <br />
-        <input class="input-date" type="date" name="Fecha" />
-        <input class="input-time" type="time" name="Hora" /> <br />
-        Comentarios:<br />
-        <textarea class="comentarios" rows="4" cols="50"></textarea><br />
+        <input class="input-date" type="date" name="fecha" />
+        <input class="input-time" type="time" name="hora" /> <br />
+        Comentarios y cantidad de personas:<br />
+        <textarea
+          class="comentarios"
+          rows="4"
+          cols="50"
+          name="comentarios"
+        ></textarea
+        ><br />
         <input class="btn-submit" type="submit" name="Reservar" />
       </fieldset>
     </form>
 
-    <!--
-        <button type="button"  onclick="alert ('Su reserva se realizó correctamente, esperamos verte pronto.' );">
-            Reservar</button>-->
-    <!--
-    <div class="formulario">
-        <fieldset>
-            <legend>Reservá en Katana.</legend>
-            <form action="mailto:tudirecciondecorreo@example.com" method="post" enctype="text/plain">    
-                Nombre y apellido:<br />
-                <input type="text" name="nombre"><br />
-                Email: <br>
-                <input type="email" name="email"><br>
-    
-                <button type="submit">Reservar</button>
-            </form>
-        </fieldset>
-    </div>
--->
     <!--Footer-->
 
     <footer id="footer" class="bg-dark py-3 mt-5">

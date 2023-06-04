@@ -34,14 +34,12 @@ chavezmaxi@gmail.com
 
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
-![Home-principal](../Restaurante%20V2/Recursos/CapturasReadme/HomePrincipal.jpeg)
-![About](../Restaurante%20V2/Recursos/CapturasReadme/About.jpeg)
-![Grid-fotos](../Restaurante%20V2/Recursos/CapturasReadme/GridFotos.jpeg)
-![Grid-footer](../Restaurante%20V2/Recursos/CapturasReadme/GridFooter.jpeg)
-![Menu-platos](../Restaurante%20V2/Recursos/CapturasReadme/MenuPlatos.jpeg)
-![Contacto](../Restaurante%20V2/Recursos/CapturasReadme/FormContacto.jpeg)
-
----
+![Home-principal](./Recursos/CapturasReadme/HomePrincipal.jpeg)
+![About](./Recursos/CapturasReadme/About.jpeg)
+![Grid-fotos](./Recursos/CapturasReadme/GridFotos.jpeg)
+![Grid-footer](./Recursos/CapturasReadme/GridFooter.jpeg)
+![Menu-platos](./Recursos/CapturasReadme/MenuPlatos.jpeg)
+![Contacto](./Recursos/CapturasReadme/FormContacto.jpeg)
 
 _Tecnologias._
 

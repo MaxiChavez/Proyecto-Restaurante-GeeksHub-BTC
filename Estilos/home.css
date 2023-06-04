@@ -8,7 +8,6 @@
   justify-content: center;
   align-items: center;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.85);
-
 }
 
 #span-landing {
@@ -27,4 +26,64 @@
 #restaurante-descripcion {
   font-weight: 500;
   font-size: 3rem;
+}
+
+.about {
+  margin-top: 10vh;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  margin-bottom: 20vh;
+  padding: 5vh;
+  border: 2px solid #000;
+  text-align: center;
+  box-shadow: 0 6px 10px black;
+  background-image: url(../Recursos/azul.avif);
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 1.9;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+.columns img {
+  width: 450px;
+  height: 450px;
+  padding: 10px;
+  margin-top: 5px;
+  transition: transform 0.3s ease;
+}
+
+.columns img:hover {
+  transform: scale(1.05);
+}
+.columns {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .about {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 100%;
+  }
+  .div-landing {
+    max-width: 100%;
+  }
+
+  #navbar {
+    max-width: 100%;
+  }
+
+  .filas-flex {
+    flex: 90%;
+  }
+  .columns img {
+    max-width: 95%;
+  }
+  .columns {
+    flex: 90%;
+  }
 }

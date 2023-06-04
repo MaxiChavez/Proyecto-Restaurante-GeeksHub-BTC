@@ -26,11 +26,11 @@
 
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="../Vistas/home.html">Katana Sushi</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbar-toggler-right"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -40,7 +40,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
@@ -75,7 +78,7 @@
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../Vistas/menu.html#postres  "
+                  <a class="dropdown-item" href="../Vistas/menu.html#postres"
                     >Postres</a
                   >
                 </li>
@@ -88,17 +91,74 @@
         </div>
       </div>
     </nav>
+
     <!--Imagen Landing-->
     <div class="div-landing text-center vertical">
       <span id="span-landing">
         <h1 id="restaurante-name">Katana</h1>
 
         <br />
-        <h1 id="restaurante-descripcion">
+        <!--<h1 id="restaurante-descripcion">
           Los mejores platos de sushi en Málaga
-        </h1>
+        </h1>-->
       </span>
     </div>
+
+    <!--Sobre mi-->
+    <div class="about">
+      <h3>
+        ¡Bienvenido a Katana, el destino definitivo para los amantes del sushi
+        en la Costa del Sol! Nuestro restaurante te transportará a Japón con sus
+        auténticos platos y un equipo de chefs japoneses expertos en la creación
+        de delicias culinarias. En Katana, nos enorgullece presentar una
+        selección incomparable de sushi fresco y sabroso. Desde los clásicos
+        nigiri y sashimi hasta los innovadores rolls de autor, cada plato es una
+        fusión perfecta de sabores y texturas que deleitará tu paladar. Nuestro
+        compromiso con la excelencia se refleja en cada detalle. Utilizamos
+        ingredientes cuidadosamente seleccionados, garantizando la frescura y la
+        calidad en cada bocado. Además, nuestro equipo de servicio te brindará
+        una experiencia personalizada, asegurándose de que cada visita sea
+        inolvidable. Sumérgete en el ambiente sofisticado y acogedor de Katana,
+        donde la tradición japonesa se encuentra con la pasión por la
+        gastronomía. Ya sea que busques una cena romántica, una celebración
+        especial o una salida con amigos, nuestro restaurante es el lugar ideal
+        para disfrutar de momentos inolvidables. Reserva ahora y déjate llevar
+        por la magia de Katana. Descubre por qué somos el destino preferido para
+        los amantes del sushi en la Costa del Sol. ¡Te esperamos con los brazos
+        abiertos para llevarte en un viaje culinario único!
+      </h3>
+    </div>
+
+    <div class="row">
+      <div class="columns">
+        <img alt="foto 1" src="../Recursos/foto1.jpeg" />
+        <img alt="foto 2" src="../Recursos/foto2.jpeg" />
+        <img alt="foto 3" src="../Recursos/foto3.jpeg" />
+      </div>
+
+      <div class="columns">
+        <img alt="foto 4" src="../Recursos/foto4.jpeg" />
+        <img alt="foto 5" src="../Recursos/foto5.jpeg" />
+        <img alt="foto 6" src="../Recursos/foto6.jpeg" />
+      </div>
+
+      <div class="columns">
+        <img alt="foto 7" src="../Recursos/foto7.jpeg" />
+        <img alt="foto 8" src="../Recursos/foto8.jpeg" />
+        <img alt="foto 9" src="../Recursos/foto9.jpeg " />
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer id="footer" class="bg-dark py-3 mt-5">
+      <div class="container text-center">
+        <p class="display-7 mb-lg-2 text-light">Katana Sushi || 654-54-54-54</p>
+        <small class="text-light"
+          >Copyright by Gamble 2023. All right reserved.</small
+        >
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

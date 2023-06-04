@@ -30,7 +30,8 @@ Se usaron efectos como: hover (leve movimiento superior de una foto, al posicion
 
 Soy Maxi chavez y tengo 34 años, actualmente estoy cursando el Bootcamp Frontend Developer, vivo en Málaga. Estoy muy entusiasmado con los nuevos proyectos.
 
-![chavezmaxi@gmail.com] https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+chavezmaxi@gmail.com
+![Gmail] (https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 ---
 

@@ -36,25 +36,6 @@ body {
   background-color: white;
   box-shadow: 0 4px 6px white;
 }
-
-/* Media query */
-@media (max-width: 768px) {
-  .formulario form {
-    max-width: 500px;
-  }
-
-  /* Media query para el área de comentarios */
-
-  .formulario textarea.comentarios {
-    width: 90%;
-    height: 150px;
-  }
-
-  .formulario fieldset {
-    margin: 3px;
-  }
-}
-
 #footer {
   position: fixed;
   bottom: 0;
@@ -62,5 +43,35 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
+  max-height: 75px;
+}
+/* Media query */
+@media (max-width: 768px) {
+  .formulario form {
+    max-width: 500px;
+  }
+
+  .formulario textarea.comentarios {
+    width: 90%;
+    height: 150px;
+  }
+
+  .formulario fieldset {
+    margin-bottom: 80px;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .formulario {
+    margin-top: 20px;
+  }
 }

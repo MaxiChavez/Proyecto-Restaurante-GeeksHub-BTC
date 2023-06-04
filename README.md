@@ -40,12 +40,10 @@ chavezmaxi@gmail.com
 ![Grid-footer](./Recursos/CapturasReadme/GridFooter.jpeg)
 ![Menu-platos](./Recursos/CapturasReadme/MenuPlatos.jpeg)
 ![Contacto](./Recursos/CapturasReadme/FormContacto.jpeg)
-![Home-principal](./Recursos/CapturasReadme/menuResponsive.jpeg)
-![About](./Recursos/CapturasReadme/responsiveContacto.jpeg)
-![Grid-fotos](./Recursos/CapturasReadme/responsiveHomeDrop.jpeg)
-![Grid-footer](./Recursos/CapturasReadme/responsiveFoto.jpeg)
-![Menu-platos](./Recursos/CapturasReadme/MenuPlatos.jpeg)
-![Contacto](./Recursos/CapturasReadme/FormContacto.jpeg)
+![Responsive-menu](./Recursos/CapturasReadme/menuResponsive.jpeg)
+![Responsive-contacto](./Recursos/CapturasReadme/responsiveContacto.jpeg)
+![Responsive-drop](./Recursos/CapturasReadme/responsiveHomeDrop.jpeg)
+![Responsive-fotos](./Recursos/CapturasReadme/responsiveFoto.jpeg)
 
 _Tecnologias._
 

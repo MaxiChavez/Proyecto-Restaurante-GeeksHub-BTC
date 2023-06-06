@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
+.cuerpo {
   overflow-x: hidden;
-  border: none;
+  max-width: auto;
 }
 
 .div-landing {
@@ -84,6 +84,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .cuerpo {
+    overflow-x: hidden !important;
+    max-width: 100%;
+  }
   .about {
     margin-left: 1px;
     margin-right: 1px;
